@@ -68,3 +68,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# TaskMaster
+
+## Description
+TaskMaster is a task management web application built with React. It allows users to create, edit, and manage their tasks efficiently. The app is designed to help users stay organized and productive by providing an intuitive interface and essential task management features
+
+## Features
+- Add new tasks with titles and descriptions.
+- Mark tasks as completed or pending.
+- Ability to delete existing tasks.
+- Responsive design for desktop and mobile devices.
+
+## Prerequisites
+Before running the project, ensure you have the following installed:
+- **Node.js** (v14.x or higher)
+- **npm** (v6.x or higher)
+
+## Build Instructions
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/taskmaster.git
+
+2. Navigate to the project directory:
+    `cd taskmaster`
+
+3. Install the required dependencies:
+    `npm install`
+
+### Running the App
+1. Start the development server:
+    `npm start`
+
+2. Open http://localhost:3000 in your browser to view the app.
+
+### Building for Production
+to create a production-ready build:
+    `npm run build`
+
+The production files will be available in the build folder.
+
+## Learn more
+
+For additional details, refer to the React documentation[https://reactjs.org/] or the Create React App documentation[https://facebook.github.io/create-react-app/docs/getting-started].
+
+### Notes:
+- Replace `your-username` and `taskmaster` with the actual repository details.
+- Add more features or prerequisites if applicable.
+- Include screenshots in a separate section if needed.
