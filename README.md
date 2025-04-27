@@ -119,3 +119,21 @@ For additional details, refer to the React documentation[https://reactjs.org/] o
 - Replace `your-username` and `taskmaster` with the actual repository details.
 - Add more features or prerequisites if applicable.
 - Include screenshots in a separate section if needed.
+
+## Screenshots of the App
+
+1. Login/Signup page
+
+![Login/Signup](image-4.png)
+
+![Login](image.png)
+
+![Signup](image-1.png)
+
+2. Dashboard page (Main)
+
+![Dashboard](image-2.png)
+
+3. Profile page
+
+![Profile](image-3.png)
