@@ -45,10 +45,14 @@ export const loginWithEmail = (email, password) =>
 export const getTasks = (userId, callback) => {
   const tasksRef = collection(db, "tasks");
   return onSnapshot(tasksRef, (snapshot) => {
-    const tasks = snapshot.docs
+    try{
+      const tasks = snapshot.docs
       .filter(doc => doc.data().userId === userId)
       .map(doc => ({ id: doc.id, ...doc.data() }));
     callback(tasks);
+    } catch (error) {
+      console.error("Error fetching tasks: ", error);
+    }
   });
 };
 
