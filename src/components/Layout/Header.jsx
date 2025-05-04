@@ -15,7 +15,9 @@ export default function Header({ user }) {
   return (
     <header className="app-header">
       <Link to={user ? "/dashboard" : "/"} className="logo">TaskMaster</Link>
+      <Link to="/about" className="nav-link">About</Link>
       <nav>
+      
         {user ? (
           <div className="user-nav">
             <span className="user-greeting">Hi, {user.displayName || 'User'}!</span>
